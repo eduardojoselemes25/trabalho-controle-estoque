@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: fixed;
+}
+
+.titulo {
+    text-align: center;
+    padding: 10px;
+    color: rgb(213, 97, 100);
+    font-size: 25px;
+}
+
+.campoTexto {
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+#login {
+    background-color: rgb(213, 97, 100);
+    padding: 17px;
+    padding-bottom: 12px;
+    /* border: 8px solid rgb(107, 115, 83); */
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+.btnGeral {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnGeral a {
+    text-decoration: none;
+    color: white;
+}
+
+.quantidadeEstoque {
+    right: 90px;
+    top: 20px;
+    position: absolute;
+}
